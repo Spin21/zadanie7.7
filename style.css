@@ -1,0 +1,441 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    margin: 0 auto 10vh auto;
+}
+
+.welcompage .container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.welcompage .jumbotron {
+    background-image: url(img/jumbotron.png);
+    height: 100vh;
+    padding-top: 25vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcompage .ellipse {
+    display: block;
+    margin: 0 auto 7vh;
+}
+
+.welcompage h1 {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 54px;
+    font-family: Lato;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 8.95px;
+}
+
+.welcompage p {
+    text-align: center;
+    margin-bottom: 90vh;
+    font-size: 20px;
+    font-family: Lato;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+
+.aboutus .aboutustab {
+    border-color: #313234;
+    border-style: solid;
+    height: 60vh;
+    width: 50vw;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.aboutus .abheader {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 13vw;
+    text-align: center;
+    background-color: white;
+    display: block;
+    max-width: 24vw;
+}
+
+.aboutus h1 {
+    text-transform: uppercase;
+    font-size: 34px;
+    color: #313234;
+}
+
+.aboutus .abouttext1 {
+    text-align: center;
+    max-width: 32vw;
+    margin: 8vh auto 4vh auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.aboutus .abouttext2 {
+    text-align: center;
+    max-width: 20vw;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.services .jumbotron {
+    background-image: url(img/services.png);
+    width: 100vw;
+    height: 60vh;
+    padding-top: 5vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.services .aboutustab {
+    border-color: white;
+    border-style: solid;
+    border-top: none;
+    height: 40vh;
+    width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    top: -4.2vh;
+}
+
+.services .abheader {
+    position: relative;
+    text-align: center;
+    display: block;
+    color: white;
+    margin: 0 auto;
+}
+
+.services h1 {
+    text-transform: uppercase;
+    font-size: 34px;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    width: 50vw;
+}
+
+.services h1:before,
+.services h1:after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    color: white;
+}
+
+.services h1:before {
+    right: 2.5em;
+    margin-left: -25%;
+}
+
+.services h1:after {
+    left: 2.5em;
+    margin-right: -25%;
+}
+
+.services .abouttext1 {
+    padding-top: 6vh;
+    text-align: center;
+    max-width: 32vw;
+    margin: 2vh auto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.89px;
+    color: white;
+}
+
+.offer .offertab {
+    border-color: #313234;
+    border-style: solid;
+    height: 165vh;
+    width: 50vw;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.offer .offerheader {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 13vw;
+    text-align: center;
+    background-color: white;
+    display: block;
+    max-width: 24vw;
+}
+
+.offer h1 {
+    text-transform: uppercase;
+    font-size: 34px;
+    color: #313234;
+}
+
+.offer .offertext1 {
+    text-align: center;
+    max-width: 32vw;
+    margin: 4vh auto 4vh auto;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.offer .offertext2 {
+    text-align: center;
+    max-width: 20vw;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.offer .icon {
+    display: block;
+    margin: 15vh auto 1vh auto;
+}
+
+.offer h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gallery .container {
+    width: 100vw;
+    margin: 5vh 0;
+    padding: 0px;
+}
+
+.gallery .row {
+    margin-top: 10px;
+}
+
+.gallery .picture1,
+.picture2,
+.picture3,
+.picture4,
+.picture5,
+.picture6 {
+    max-width: 100%;
+    height: 30vh;
+    background-position: center;
+}
+
+.picture1 {
+    background-image: url(img/Topworkz.png);
+}
+
+.picture2 {
+    background-image: url(img/Joint.png);
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+}
+
+.picture3 {
+    background-image: url(img/Market.png);
+}
+
+.gallery h1 {
+    position: relative;
+    margin-top: 23vh;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 8.95px;
+}
+
+.picture4 {
+    background-image: url(img/Worktop.png);
+}
+
+.picture5 {
+    background-image: url(img/Lable.png);
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+}
+
+.picture6 {
+    background-image: url(img/Kyiv.png);
+}
+
+.contact .aboutustab {
+    border-color: #313234;
+    border-style: solid;
+    height: 45vh;
+    width: 50vw;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.contact .abheader {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 13vw;
+    text-align: center;
+    background-color: white;
+    display: block;
+    max-width: 24vw;
+}
+
+.contact h1 {
+    text-transform: uppercase;
+    font-size: 34px;
+    color: #313234;
+}
+
+.contact .abouttext1 {
+    text-align: center;
+    max-width: 32vw;
+    margin: 8vh auto 4vh auto;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contact .greyheader {
+    margin-top: 40px;
+    margin-left: 13vw;
+    text-align: center;
+    background-color: #383434;
+    display: block;
+    max-width: 24vw;
+    line-height: 58px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+footer {
+    margin: 0 auto 30px auto;
+}
+
+footer .sm-elip {
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+}
+
+footer .glyphicon {
+    line-height: 0.5;
+    font-weight: 100;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+@media(max-width: 767px) {
+    .welcompage h1 {
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+    .welcompage p {
+        font-size: 10px;
+        letter-spacing: none;
+    }
+    .aboutus .abheader {
+        margin-top: -5px;
+    }
+    .aboutus h1 {
+        font-size: 12px;
+    }
+    .aboutus .abouttext1 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .aboutus .abouttext2 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .services .aboutustab {
+        position: relative;
+        top: -2.8vh;
+    }
+    .services h1 {
+        font-size: 12px;
+    }
+    .services .abouttext1 {
+        font-size: 10px;
+        font-weight: 0;
+        line-height: 15px;
+    }
+    .services .jumbotron p {
+        font-size: 10px;
+    }
+    .offer .offerheader {
+        margin-top: -5px;
+    }
+    .offer h1 {
+        font-size: 12px;
+    }
+    .offer .offertext1 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .offer .offertext2 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .offer .icon {
+        display: block;
+        margin: 15vh auto 1vh auto;
+    }
+    .offer h3 {
+        font-size: 10px;
+    }
+    .picture2 {
+        border-right: none;
+        border-left: none;
+    }
+    .picture4 {
+        border-right: none;
+        border-left: none;
+    }
+    .gallery .row {
+        margin-top: none;
+    }
+    .gallery .picture1,
+    .picture2,
+    .picture3,
+    .picture4,
+    .picture5,
+    .picture6 {
+        margin-top: 10px;
+    }
+    .contact .aboutustab {
+        height: 40vh;
+    }
+    .contact .abheader {
+        margin-top: -5px;
+    }
+    .contact h1 {
+        font-size: 12px;
+    }
+    .contact .abouttext1 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .contact .greyheader {
+        line-height: 35px;
+        font-size: 10px;
+    }
+    footer .copyrights {
+    	font-size: 8px;
+    }
+    footer .sm-elip {
+    	margin-left: 15vw;
+    }
+}
